@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/src/DTMoney.Static/node_modules
+/src/DTMoney.Static/.pnp
+/src/DTMoney.Static/.pnp.js
+
+# testing
+/src/DTMoney.Static/coverage
+
+# production
+/src/DTMoney.Static/build
+
+# misc
+/src/DTMoney.Static/.DS_Store
+/src/DTMoney.Static/.env.local
+/src/DTMoney.Static/.env.development.local
+/src/DTMoney.Static/.env.test.local
+/src/DTMoney.Static/.env.production.local
+
+/src/DTMoney.Static/npm-debug.log*
+/src/DTMoney.Static/yarn-debug.log*
+/src/DTMoney.Static/yarn-error.log*
