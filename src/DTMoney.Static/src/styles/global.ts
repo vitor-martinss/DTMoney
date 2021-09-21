@@ -3,8 +3,9 @@ import { createGlobalStyle } from "styled-components";
 export const GlobalStyle = createGlobalStyle`
 	:root {
 		--background: #f0f2f5;
-
+		--white: #fff;
 		--red: #e52e4d;
+		--green: #33cc95;
 		--blue: #5429cc;
 		--blue-light: #6933ff;
 		--text-tile: #363f5f;
@@ -19,6 +20,9 @@ export const GlobalStyle = createGlobalStyle`
 	}
 
 	html {
+		font-family: 'Poppins', sans-serif;
+		font-weight: 400;
+
 		@media (max-width: 1860px) {
 			font-size: 93.95%; // 15px
 		}

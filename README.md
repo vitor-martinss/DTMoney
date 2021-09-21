@@ -34,15 +34,14 @@ $ git clone https://github.com/vitor-martinss/DTMoney.git
 **Follow the steps below for Web Version**
 
 ```js
+  # Go to project.static folder
+  cd src/DTMoney.static 
 
-	# Go to project.static folder
-	cd src/DTMoney.static 
+  # Install the dependencies
+  $ yarn
 
-	# Install the dependencies
-	$ yarn
-
-	# Start project
-	yarn dev
+  # Start project
+  yarn dev
 ```
 The app will be available for access on your browser at `http://localhost:3000`
 
